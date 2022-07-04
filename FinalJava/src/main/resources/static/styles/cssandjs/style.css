@@ -1,0 +1,90 @@
+.navbar, body {
+	font-family: 'Merriweather', serif;
+}
+.navbar {
+	font-size: 1.4em;
+}
+.nav-item:hover {
+	border-bottom: 2px solid gray;
+}
+.nav-item {
+	border-bottom:  2px solid transparent;
+}
+* {
+	/*border: 2px solid yellow;*/
+}
+.row {
+	width: 100%;
+}
+.pic {
+	background-image: url(../../images/bg.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 350px;
+}
+.list {
+	/*border:  3px solid gray;*/
+	border-radius: 20px;
+	box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.footer {
+	background-color: black;
+}
+.footer ul {
+	list-style-type: none;
+}
+.footer a {
+	color: white;
+	text-decoration: none;
+}
+h1, h3 {
+	color: #740808;
+}
+footer {
+	color: #434242;
+	background-color: white;
+}
+footer svg {
+	vertical-align: middle;
+}
+footer .lbl {
+	float: left;
+	margin-top: 2.5%;
+}
+
+table td, tr{
+	border:  2px solid grey;
+}
+
+
+.sign input {
+	border: none;
+	border-radius: 0px;
+	border-bottom: 1px solid grey;
+}
+.sign input[type="submit"] {
+	background-color: transparent;
+	color: black;
+	width: 30%;
+	border-radius: 20px;
+	border: 2px solid #740808;
+	transition: 200ms all ease-in;
+}
+.tablinks:hover, .sign input[type="submit"]:hover {
+	background-color: black;
+	color: white;
+	border: 2px solid black;
+}
+.sign input[type="text"], .sign input[type="password"] {
+	margin-left: 5%;
+}
+.sign {
+	background-color: white;
+	border-radius: 20px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.sign label {
+	width: 20%;
+}
+tr:nth-child(even){background-color: #f2f2f2;}
+tr:hover {background-color: #c4c4c4;}
